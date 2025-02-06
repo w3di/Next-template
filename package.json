@@ -3,35 +3,51 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "preinstall": "npx only-allow npm",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint-fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "prettier": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "knip": "knip",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "clsx": "^2.1.1",
-    "next": "14.2.13",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "15.1.6",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "sass": "^1.79.3"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.17.17",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
     "@typescript-eslint/eslint-plugin": "^8.7.0",
     "@typescript-eslint/parser": "^8.7.0",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^14.2.13",
+    "eslint-config-next": "15.1.6",
     "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-jest": "^28.11.0",
     "eslint-plugin-react": "^7.36.1",
-    "eslint-plugin-react-hooks": "^4.6.2",
     "husky": "^9.1.6",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "knip": "^5.43.6",
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
-    "typescript": "^5"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "overrides": {
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3"
   }
 }

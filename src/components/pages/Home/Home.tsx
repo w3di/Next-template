@@ -25,11 +25,11 @@ const Home = () => {
 
         <div className={s.DivRow}>
           <p>static image use:</p>
-          <Image src='/nextjs-192x192.png' alt='Next Logo' width={192} height={192} priority />
+          <Image src='/nextjs-192x192.png' alt='Next Logo static' width={192} height={192} priority />
         </div>
         <div className={s.DivRow}>
           <p>dynamical image use:</p>
-          <ImageWrapper src='/nextjs-192x192.png' alt='Next Logo' className={s.VercelLogo} fill priority />
+          <ImageWrapper src='/nextjs-192x192.png' alt='Next Logo dynamic' className={s.VercelLogo} fill priority />
         </div>
       </section>
     </main>

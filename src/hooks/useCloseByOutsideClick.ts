@@ -1,6 +1,6 @@
 import { RefObject, useEffect } from 'react';
 
-export function useCloseByOutsideClick(ref: RefObject<HTMLElement>, fn: (event: Event) => void) {
+export function useCloseByOutsideClick(ref: RefObject<HTMLElement | null>, fn: (event: Event) => void) {
   // const ref = React.useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {

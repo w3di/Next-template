@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <main
+    class="Home"
+  >
+    <section
+      class="Line"
+    >
+      <p>
+        Get started by editing
+      </p>
+      <img
+        alt="Next Logo"
+        data-nimg="1"
+        decoding="async"
+        height="24"
+        src="/next.svg"
+        style="color: transparent; filter: invert(1);"
+        width="100"
+      />
+    </section>
+    <section
+      class="center"
+    >
+      <div
+        class="DivRow"
+      >
+        <p>
+          button:
+        </p>
+        <button
+          class="Button"
+        >
+          test button
+        </button>
+        <p>
+          icon:
+        </p>
+        <svg
+          class="Icon IconMenu"
+          viewBox="0 0 43 21"
+        >
+          <path
+            d="M3.5 6.18555H39.5M3.5 14.1855H32"
+            stroke="white"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-opacity="0.9"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
+      <div
+        class="DivRow"
+      >
+        <p>
+          static image use:
+        </p>
+        <img
+          alt="Next Logo static"
+          data-nimg="1"
+          decoding="async"
+          height="192"
+          src="/_next/image?url=%2Fnextjs-192x192.png&w=384&q=75"
+          srcset="/_next/image?url=%2Fnextjs-192x192.png&w=256&q=75 1x, /_next/image?url=%2Fnextjs-192x192.png&w=384&q=75 2x"
+          style="color: transparent;"
+          width="192"
+        />
+      </div>
+      <div
+        class="DivRow"
+      >
+        <p>
+          dynamical image use:
+        </p>
+        <div
+          class="VercelLogo"
+        >
+          <img
+            alt="Next Logo dynamic"
+            class="ImageWrapper"
+            data-nimg="fill"
+            decoding="async"
+            sizes="100vw"
+            src="http://localhost/_next/image?url=%2Fskeleton.png&w=3840&q=100"
+            srcset="/_next/image?url=%2Fskeleton.png&w=640&q=100 640w, /_next/image?url=%2Fskeleton.png&w=750&q=100 750w, /_next/image?url=%2Fskeleton.png&w=828&q=100 828w, /_next/image?url=%2Fskeleton.png&w=1080&q=100 1080w, /_next/image?url=%2Fskeleton.png&w=1200&q=100 1200w, /_next/image?url=%2Fskeleton.png&w=1920&q=100 1920w, /_next/image?url=%2Fskeleton.png&w=2048&q=100 2048w, /_next/image?url=%2Fskeleton.png&w=3840&q=100 3840w"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+`;
